@@ -1,0 +1,34 @@
+name: XenosComputer
+main: dk.xenos.computer.XenosComputer
+version: 2.0.0
+author: Xenos
+softdepend: [Vault]
+description: Xenos OS marketplace, bank, contracts, mail, news, auctions and trading profiles.
+commands:
+  setcomputer:
+    description: Bind a computer GUI to the block you are looking at.
+    permission: xenoscomputer.admin
+  removecomputer:
+    description: Unbind a computer block.
+    permission: xenoscomputer.admin
+  setpostkasse:
+    description: Bind a physical mailbox to the block you are looking at.
+    permission: xenoscomputer.admin
+  removepostkasse:
+    description: Remove a physical mailbox from a block.
+    permission: xenoscomputer.admin
+  xpc:
+    description: Computer test and administration menu.
+  xpcnews:
+    description: Publish an official Xenos OS bulletin.
+    permission: xenoscomputer.admin
+    usage: /xpcnews <nyhed>
+permissions:
+  xenoscomputer.admin:
+    default: op
+  xenoscomputer.use:
+    default: true
+  xenoscomputer.remote:
+    default: op
+  xenoscomputer.mailbox:
+    default: true

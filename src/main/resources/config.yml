@@ -1,0 +1,100 @@
+settings:
+  max-auctions-per-player: 5
+  max-active-auctions: 200
+  max-auction-item-amount: 64
+  min-start-price: 10
+  max-start-price: 10000000
+  auction-expire-check-seconds: 15
+  min-bid-increase: 10
+  sales-fee-percent: 0
+shop:
+  bread:
+    material: BREAD
+    amount: 16
+    price: 200
+    name: '&e16x Brød'
+    description: '&7Mad til turen rundt på øerne.'
+    lore:
+      - '&7Friskbagt brød til lange vagter'
+      - '&7i minerne og på Prison-øerne.'
+      - '&8En sikker og billig forsyning.'
+  iron:
+    material: IRON_INGOT
+    amount: 16
+    price: 650
+    name: '&f16x Jern'
+    description: '&7Til værktøj og crafting.'
+    lore:
+      - '&7Solidt jern til nye værktøjer'
+      - '&7og dit næste byggeprojekt.'
+      - '&8Et must for enhver fange.'
+  gold:
+    material: GOLD_INGOT
+    amount: 8
+    price: 950
+    name: '&68x Guld'
+    description: '&7En værdifuld ressource.'
+    lore:
+      - '&7Eftertragtet guld til crafting,'
+      - '&7handel og ekstra udstyr.'
+      - '&8En værdifuld investering.'
+  coal:
+    material: COAL
+    amount: 32
+    price: 250
+    name: '&832x Kul'
+    description: '&7Til ovne og værktøjer.'
+    lore:
+      - '&7Kul til ovne og effektiv smeltning.'
+      - '&7Godt til hverdagens produktion.'
+      - '&8Stabil forsyning til din base.'
+  beef:
+    material: COOKED_BEEF
+    amount: 16
+    price: 290
+    name: '&616x Steaks'
+    description: '&7Fyld madbaren hurtigt.'
+    lore:
+      - '&7Mættende mad til dine eventyr'
+      - '&7og længere mining-sessioner.'
+      - '&8Klar til at tage med.'
+  arrows:
+    material: ARROW
+    amount: 32
+    price: 420
+    name: '&f32x Pile'
+    description: '&7Til din bue.'
+    lore:
+      - '&7Hold dig klar til både PvP'
+      - '&7og farlige møder uden for spawn.'
+      - '&8Passer til din bue.'
+  diamond:
+    material: DIAMOND
+    amount: 2
+    price: 2300
+    name: '&b2x Diamanter'
+    description: '&7Sjælden loot.'
+    lore:
+      - '&7Kostbare diamanter til udstyr'
+      - '&7og dine næste store planer.'
+      - '&8Kun for seriøse samlere.'
+  exp:
+    material: EXP_BOTTLE
+    amount: 16
+    price: 1750
+    name: '&a16x XP flasker'
+    description: '&7Til enchanting.'
+    lore:
+      - '&7Brug XP-flasker til at få'
+      - '&7ekstra erfaring ved enchanting.'
+      - '&8Praktisk og hurtigt.'
+  apple:
+    material: GOLDEN_APPLE
+    amount: 2
+    price: 1400
+    name: '&62x Golden Apples'
+    description: '&7Når kampen bliver hård.'
+    lore:
+      - '&7Gyldne æbler til kamp og'
+      - '&7vigtige øjeblikke på serveren.'
+      - '&8En luksusforsyning.'
